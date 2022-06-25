@@ -1,0 +1,111 @@
+.dashboard {
+    .welcome {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: 20px;
+        border-radius: 5px;
+
+        .welcome-text {
+            text-align: justify;
+            padding: 7px;
+
+            h1 {
+                font-family: "GoldmanBold";
+            }
+
+            h5 {
+                color: #888383
+            }
+        }
+
+        .welcome-img {
+            width: 100%;
+            margin-left: 13px;
+        }
+    }
+
+    .from {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: 20px;
+        border-radius: 5px;
+
+        .info {
+            display: flex;
+            padding: 10px;
+
+            .icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                margin-right: 10px;
+
+                i {
+                    font-size: 40px;
+                    color: white;
+                }
+            }
+
+            .details {
+                text-align: justify;
+
+                .detail-sum {
+                    color: #e1000a;
+                    font-size: 30px;
+                    font-family: "GoldmanBold";
+                    display: inline-block;
+                    position: relative;
+                }
+
+                span {
+                    background-color: #13bb37;
+                }
+
+                .detail-sum:after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    background-color:#e1000a;
+                    transform-origin: bottom right;
+                    transition: transform 0.25s ease-out;
+                }
+
+                .detail-sum:hover:after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                }
+            }
+
+        }
+    }
+
+    .phone {
+        .icon {
+            background-color: #e1000a;
+        }
+    }
+
+    .social-network {
+        .icon {
+            background-color: #13bb37;
+        }
+    }
+
+    .web {
+        .icon {
+            background-color: #ff4b00;
+        }
+    }
+
+    .suggestion {
+        .icon {
+            background-color: #4788ff;
+        }
+    }
+    .teacher-chart{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+}

@@ -1,0 +1,49 @@
+.nav-social {
+    border-bottom: 1px solid #eae6e6;
+
+    .nav-title {
+        font-size: 14px;
+        color: #8f8383;
+        padding-left: 10%;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 17px;
+
+        span {
+            color: #c1b1b1;
+        }
+
+        .nav-icon {
+            color: #3d3939;
+            margin-right: 15px;
+
+        }
+
+        &:hover {
+            .nav-icon {
+                color: #ff7c7c;
+            }
+
+            span {
+                color: #ff7c7c;
+            }
+        }
+
+        &:focus {
+            background-color: #fc8a8a;
+
+            .nav-icon {
+                color: white;
+            }
+
+            span {
+                color: white;
+            }
+        }
+
+
+
+    }
+}

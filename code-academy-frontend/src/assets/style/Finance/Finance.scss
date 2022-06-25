@@ -1,0 +1,64 @@
+.finance-buttons {
+    display: flex;
+    justify-content: end;
+
+    .finance-create-btn {
+        box-shadow: none;
+        transition: all 0.6s;
+
+        &:focus {
+            transition: all 0.6s;
+            box-shadow: none;
+        }
+    }
+
+    .finance-btn {
+        box-shadow: none !important;
+        transition: all 0.6s;
+        font-size: 12px;
+
+        &:focus {
+            transition: all 0.6s;
+            box-shadow: none !important;
+        }
+
+    }
+
+    .print-btn {
+        box-shadow: none;
+        transition: all 0.6s;
+
+        &:focus {
+            transition: all 0.6s;
+            box-shadow: none;
+        }
+    }
+}
+.finance-modal-body{
+    display: flex;
+    justify-content: center;
+    .finance-create-date {
+        border-radius: 4px;
+        color: navy;
+        border: 1px solid rgb(190, 186, 186);
+        width: 210px;
+        margin-top: 13px;
+        height: 56px;
+        padding: 10px;
+        margin-bottom: 12px;
+        width: 100% !important;
+    }
+
+    .react-datepicker-popper {
+        z-index: 4;
+    }
+
+    .react-datepicker__close-icon {
+        margin-right: 10px;
+    }
+
+    .react-datepicker__header {
+        background-color: #2574ba;
+    }
+
+}

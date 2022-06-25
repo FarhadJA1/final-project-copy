@@ -1,0 +1,48 @@
+.classroom{
+    .create-classroom-btn-area {
+        display: flex;
+        justify-content: end;
+
+        .create-classroom-btn {
+            box-shadow: none;
+            transition: all 0.6s;
+
+            &:focus {
+                transition: all 0.6s;
+                box-shadow: none;
+            }
+        }
+
+        .create-classroom-textarea {
+            .create-student-input {
+                width: 100% !important;
+            }
+        }
+    }
+    .classroom-info-area{
+        text-align: center;
+    }
+    .classroom-list-elements{
+        list-style-type: none;
+    }
+    .classroom-button {
+        box-shadow: none !important;
+        transition: all 0.6s;
+        font-size: 12px;
+
+        &:focus {
+            transition: all 0.6s;
+            box-shadow: none !important;
+        }
+    }
+    .classroom-modal-body {
+        display: flex;
+        justify-content: space-between;
+
+        .minus {
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+        }
+    }
+}

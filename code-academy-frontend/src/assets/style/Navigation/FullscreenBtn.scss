@@ -1,0 +1,11 @@
+.fullscreen-btn {
+    margin-top: 1%;
+    box-shadow: none !important;
+    transition: all 0.6s;
+    border: none !important;
+
+    &:focus {
+        transition: all 0.6s;
+        box-shadow: none !important;
+    }
+}

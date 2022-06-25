@@ -1,0 +1,50 @@
+.term {
+
+    .create-term-btn-area {
+        display: flex;
+        justify-content: end;
+
+        .create-term-btn {
+            box-shadow: none;
+            transition: all 0.6s;
+
+            &:focus {
+                transition: all 0.6s;
+                box-shadow: none;
+            }
+        }
+
+        .create-term-textarea {
+            .create-term-input {
+                width: 100% !important;
+            }
+        }
+    }
+    .term-groups-list{
+        list-style-type: none;
+    }
+
+    .term-button {
+        box-shadow: none !important;
+        transition: all 0.6s;
+        font-size: 12px;
+
+        &:focus {
+            transition: all 0.6s;
+            box-shadow: none !important;
+        }
+    }
+
+    .term-modal-body {
+        display: flex;
+        justify-content: space-between;
+
+        .minus {
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+        }
+    }
+
+
+}

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "GoldmanLight";
+    src: local("GoldmanLight"),
+        url("../fonts/Ubuntu-Light.ttf") format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "GoldmanBold";
+    src: local("GoldmanBold"),
+        url("../fonts/Ubuntu-Bold.ttf") format("truetype");
+    
+}
+
+.App {
+
+    display: flex;
+    font-family: "GoldmanLight";
+}
+

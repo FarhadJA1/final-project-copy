@@ -1,0 +1,36 @@
+.resource{
+    .create-resource-btn-area {
+        display: flex;
+        justify-content: end;
+
+        .create-resource-btn {
+            box-shadow: none;
+            transition: all 0.6s;
+
+            &:focus {
+                transition: all 0.6s;
+                box-shadow: none;
+            }
+        }
+
+        .create-resource-textarea {
+            .create-education-input {
+                width: 100% !important;
+            }
+        }
+    }
+    .resource-list-elements{
+        list-style-type: none;
+    }
+    .resource-button {
+        box-shadow: none !important;
+        transition: all 0.6s;
+        font-size: 12px;
+
+        &:focus {
+            transition: all 0.6s;
+            box-shadow: none !important;
+        }
+    }
+  
+}

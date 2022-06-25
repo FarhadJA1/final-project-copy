@@ -1,0 +1,95 @@
+.teacher {
+
+    .teacher-button {
+        box-shadow: none !important;
+        transition: all 0.6s;
+        font-size: 12px;
+
+        &:focus {
+            transition: all 0.6s;
+            box-shadow: none !important;
+        }
+    }
+
+    .addition {
+
+        text-align: start;
+        .addition-title {
+            display: inline-block;
+            position: relative;            
+        }
+        .teacher-details-area-description{
+            margin-left: 30px;
+        }
+        .teacher-details-area-groups{
+            margin-left: 60px
+        }
+        .addition-title:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #f4df3f;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+
+        .addition-title:hover:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+        .teacher-birthday {
+            border-radius: 4px;
+            color: navy;
+            border: 1px solid rgb(190, 186, 186);
+            width: 210px;
+            margin-top: 13px;
+            height: 56px;
+            padding: 10px;
+
+        }
+       
+
+        .react-datepicker-popper {
+            z-index: 4;
+        }
+
+        .react-datepicker__close-icon {
+            margin-right: 10px;
+        }
+
+        .react-datepicker__header {
+            background-color: #2574ba;
+        }
+    }
+}
+
+.create-header {
+
+    display: inline-block;
+    position: relative;
+
+
+    .create-header:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #f4df3f;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    .create-header:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+}

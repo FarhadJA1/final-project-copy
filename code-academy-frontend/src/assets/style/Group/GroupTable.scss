@@ -1,0 +1,112 @@
+.table {
+  .table-header {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .table-button-area {
+    display: flex;
+    justify-content: center;
+
+    .group-btn {
+      box-shadow: none !important;
+      transition: all 0.6s;
+      font-size: 12px;
+
+      &:focus {
+        transition: all 0.6s;
+        box-shadow: none !important;
+      }
+
+    }
+  }
+
+  .delete-group {
+    text-align: center;
+  }
+
+  .addition {
+    .group-create-date {
+      border-radius: 4px;
+      color: navy;
+      border: 1px solid rgb(190, 186, 186);
+      width: 210px;
+      margin-top: 13px;
+      height: 56px;
+      padding: 10px;
+      margin-bottom: 12px;
+
+    }
+
+    .group-capacity-input {
+      padding-left: 20px;
+    }
+
+    .group-education-input {
+      margin-left: 2px;
+    }
+
+    .react-datepicker-popper {
+      z-index: 4;
+    }
+
+    .react-datepicker__close-icon {
+      margin-right: 10px;
+    }
+
+    .react-datepicker__header {
+      background-color: #2574ba;
+    }
+
+    .group-drop {
+      display: flex;
+      justify-content: center;
+    }
+
+    .addition-title {
+      display: inline-block;
+      position: relative;
+    }
+
+    .addition-title:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #f4df3f;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    .addition-title:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+
+    .group-btn {
+      box-shadow: none !important;
+      transition: all 0.6s;
+      font-size: 12px;
+
+      &:focus {
+        transition: all 0.6s;
+        box-shadow: none !important;
+      }
+    }
+
+  }
+  .group-details-area-description {
+    margin-left: 30px;
+  }
+  .group-details-area-students{
+    margin-left: 60px;
+  }
+  
+}
+
+  
+
+  
